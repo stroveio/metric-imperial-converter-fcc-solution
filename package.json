@@ -7,7 +7,7 @@
   "description": "What am I about?",
   "main": "server.js",
   "scripts": {
-    "start": "node server.js",
+    "start": "PORT=8080 node server.js",
     "test": "mocha --exit --ui tdd tests/"
   },
   "dependencies": {
@@ -24,7 +24,7 @@
     "zombie": "^6.1.4"
   },
   "engines": {
-    "node": "4.4.3"
+    "node": "10.16.3"
   },
   "repository": {
     "type": "git",
